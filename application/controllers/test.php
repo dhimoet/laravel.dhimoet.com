@@ -1,6 +1,6 @@
 <?php
 
-class Home_Controller extends Base_Controller {
+class Test_Controller extends Base_Controller {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -32,7 +32,7 @@ class Home_Controller extends Base_Controller {
 
 	public function action_index()
 	{
-		return View::make('home.index');
+		return View::make('test.index');
 	}
 
 }
